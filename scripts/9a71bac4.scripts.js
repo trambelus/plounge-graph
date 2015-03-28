@@ -83,7 +83,7 @@ angular.module("cyViewerApp", ["ngCookies", "ngResource", "ngSanitize", "ngRoute
     }, a.toolbarState = {
         show: !0
     }, a.bg = {
-        color: "#FAFAFA"
+        color: "#000040"
     }, a.columnNames = [], a.edgeColumnNames = [], a.networkColumnNames = [];
     var s = {
         showOverlay: !1,
