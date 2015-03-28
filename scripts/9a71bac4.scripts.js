@@ -77,16 +77,16 @@ angular.module("cyViewerApp", ["ngCookies", "ngResource", "ngSanitize", "ngRoute
         q = "#network",
         r = "default";
     a.LAYOUTS = ["preset", "random", "grid", "circle", "concentric", "breadthfirst", "cose"], a.networks = {}, a.currentVS = null, a.visualStyles = [], a.visualStyleNames = [], a.networkNames = [], a.currentNetworkData = null, a.browserState = {
-        show: !0
+        show: !1
     }, a.overlayState = {
-        show: !0
+        show: !1
     }, a.toolbarState = {
         show: !0
     }, a.bg = {
         color: "#000040"
     }, a.columnNames = [], a.edgeColumnNames = [], a.networkColumnNames = [];
     var s = {
-        showOverlay: !0,
+        showOverlay: !1,
         minZoom: .01,
         maxZoom: 200,
         layout: {
